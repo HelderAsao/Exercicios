@@ -1,2 +1,2 @@
 # exercicios
- Exerrcicios html do curso em video 2024
+ Exercicios html do curso em video 2024
