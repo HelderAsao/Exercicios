@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            background-color: darkgrey;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+
+        }
+        h1 {
+             box-shadow: inset 5px 3px 7px 1px rgba(8, 8, 8, 0.411);;
+            /*INSET > SOMBRA INTERNA*/
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 7px 7px 13px 0px;
+        }
+
+        nav {
+            background-color: aqua;
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(8, 8, 8, 0.445);
+            
+           
+        }
+
+        nav>a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav>a:hover {
+            text-decoration: none;
+            color: brown;
+
+        }
+
+        section#assuntos {
+            background-color: grey;
+        }
+
+        article {
+            background-color: pink;
+            padding: 5px;
+        }
+
+        article>aside {
+            background-color: greenyellow;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+           
+        }
+        footer>p{
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: auto;
+            border-radius: 50%;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>esportes</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima sint veritatis temporibus atque
+                    quaerat commodi! Officiis ipsam est error saepe nobis recusandae voluptates distinctio enim quam,
+                    possimus provident architecto animi!</p>
+                <aside>
+                    <p> artigo escrito por jose da silva </p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+
+</html>
