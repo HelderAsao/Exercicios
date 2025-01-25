@@ -1,13 +1,22 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Passion One", serif;
+    --font3:  "Roboto", serif;
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 html,
 body {
+    font-family: var(--font1);
     min-height: 100vh;
     background-color: darkgrey;
 }
@@ -22,7 +31,9 @@ header>h1 {
     padding-top: 50px;
     color: white;
     font-variant: small-caps;
-    text-transform: ;
+    font-family: var(--font2);
+    font-size: 10vw;
+    
 }
 
 header>p {
@@ -45,8 +56,10 @@ section{
 
     padding-top: 10vh;
     padding-bottom:10vh;
-    line-height: 2rem;
+    line-height: 3rem;
     padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 2rem;
 }
 
 section.normal{
@@ -60,8 +73,10 @@ section.imagem{
 }
 
 section.imagem>p{
-    width: 400px;
+    
     background-color: rgb(112, 104, 104);
+    display: inline-block;
+    padding: 5px;
 }
 
 footer{
@@ -72,3 +87,18 @@ footer{
     padding: 10px;
 }
 
+
+    
+@media(min-width:1100px){
+
+    section{
+        
+    padding-top: 10vh;
+    padding-bottom:10vh;
+    line-height: 4rem;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 2.7rem;
+    }
+
+}
